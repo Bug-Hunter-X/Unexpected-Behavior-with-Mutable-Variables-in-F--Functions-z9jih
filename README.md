@@ -1,0 +1,3 @@
+# F# Mutable Variable Swapping Bug
+
+This repository demonstrates a common issue in F# related to the unexpected behavior of mutable variables when used within functions.  F#'s default immutability can lead to confusion if not handled correctly.  The bug.fs file shows an incorrect approach using mutable variables. The bugSolution.fs file illustrates two correct solutions using tuples and reference cells. This is a great learning opportunity on how to correctly use mutable variables and immutability in F#.
